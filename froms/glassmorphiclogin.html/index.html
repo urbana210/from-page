@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- title -->
+
+    <title>Glass Morphic Log In From </title>
+
+    <!-- Internal CSS -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <style>
-        * {
-    margin: 0;
+   * {
+   
     padding: 0;
-
+    margin: 0;
     font-family: "poppins", sans-serif;
 }
 
 body{
-    background-color: #000;
+    background-color: #060606;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +31,7 @@ body{
     width: 100%;
 }
 
-          .box{
+  .box{
             width: 400px;
             height: 450px;
             border: 2px solid  #625d5d;
@@ -36,7 +41,7 @@ body{
             border-radius: 20px;
             backdrop-filter: blur(15px);
             background: transparent;
-          }
+   }
           h2{
             font-size: 2em;
             color: #fff;
@@ -147,59 +152,6 @@ button{
 }
 
 
-/* -- YouTube Link Styles -- */
-
-#source-link {
-  top: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-#yt-link {  
-  top: 10px;
-}
-
-#yt-link > i {
-  color: rgb(219, 31, 106); 
-
-}
-
-.meta-link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;  
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  transition: background-color 600ms, border-color 600ms;
-  z-index: 10000;
-}
-
-.meta-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.meta-link > i, .meta-link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.meta-link > span {
-  color: white;
-  font-family: "Rubik", sans-serif;
-  transition: color 600ms;
-}
-
     </style>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -211,12 +163,12 @@ button{
 
         <form action="">
 
-            <h2>Login Here</h2>
+            <h2>Log In From</h2>
 
             <div class="inputbox">
                 <ion-icon name="mail-outline"></ion-icon>
                 <input type="email" name="" id="" required>
-                <label for="">Email:</label>
+                <label for="">E-mail:</label>
             </div>
 
             <div class="inputbox">
@@ -230,31 +182,21 @@ button{
                     <input type="checkbox">Remember me
                 </label>
                 <label for="">
-                    Forget Password
+                    Forgot Password
                 </label>
             </div>
             <button> Log In</button>
             
 
             <div class="register">
-                <p>Don't have an account ? <a href="">register</a></p>
+                <p>Don't have any account ? <a href="">register now</a></p>
             </div>
         </form>
     </div>
 
 
 
-      <!--Social Liks codings below-->
-      <a id="source-link" class="meta-link" href="https://t.me/+7yc_oGHnLJhlOWVl" target="_blank">
-        <i class="fas fa-link"></i>
-        <span class="roboto-mono">Join my Telegram</span>
-    </a>
-
-    <a id="yt-link" class="meta-link" href="https://www.youtube.com/@codewith_muhilan?sub_confirmation=1" target="_blank">
-      <i class="fab fa-youtube"></i>
-      <span>Subscribe my channel..❤</span>
-    </a>
-
+    <!-- java script add -->
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
